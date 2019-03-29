@@ -1,0 +1,134 @@
+[2019-03-14 00:47:26,881]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-14 00:47:26,888]-INFO-test_log.py-lemon14-日志信息:这是读取的第1条测试用例,用例内容是{'CaseID': 1, 'Module': 'register', 'Description': '正常注册:输入正确的手机号、密码、用户名', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'post', 'Params': "{'mobilephone':'15671638439','pwd':'123456','regname':'JESSIE'}", 'ExpectedResult': "{'status':1,'code':'10001','data':None,'msg':'注册成功'}", 'ActualResult': '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}', 'TestResult': 'Failed'}
+[2019-03-14 00:47:26,894]-INFO-test_log.py-lemon14-日志信息:这是读取的第2条测试用例,用例内容是{'CaseID': 2, 'Module': 'register', 'Description': '正常注册:输入正确的手机号、密码，用户名为空', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'get', 'Params': "{'mobilephone':'15671638390','pwd':'123456789123456789'}", 'ExpectedResult': "{'status':1,'code':'10001','data':None,'msg':'注册成功'}", 'ActualResult': '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}', 'TestResult': 'Failed'}
+[2019-03-14 00:47:26,905]-INFO-test_log.py-lemon14-日志信息:这是读取的第3条测试用例,用例内容是{'CaseID': 3, 'Module': 'register', 'Description': '异常注册:输入手机号为空、正确的密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'post', 'Params': "{'pwd':'123456'}", 'ExpectedResult': "{'status':0,'code':'20103','data':None,'msg':'手机号不能为空'}", 'ActualResult': '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}', 'TestResult': 'Pass'}
+[2019-03-14 00:47:26,913]-INFO-test_log.py-lemon14-日志信息:这是读取的第4条测试用例,用例内容是{'CaseID': 4, 'Module': 'register', 'Description': '异常注册:输入已被注册的手机号、正确的密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'post', 'Params': "{'mobilephone':'15671638340','pwd':'123456'}", 'ExpectedResult': "{'status':0,'code':'20110','data':None,'msg':'手机号码已被注册'}", 'ActualResult': '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}', 'TestResult': 'Pass'}
+[2019-03-14 00:47:26,920]-INFO-test_log.py-lemon14-日志信息:这是读取的第5条测试用例,用例内容是{'CaseID': 5, 'Module': 'register', 'Description': '异常注册:输入字符类型的手机号、正确的密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'post', 'Params': "{'mobilephone':'hhh','pwd':'123456'}", 'ExpectedResult': "{'status':0,'code':'20109','data':None,'msg':'手机号码格式不正确'}", 'ActualResult': '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}', 'TestResult': 'Pass'}
+[2019-03-14 00:47:26,927]-INFO-test_log.py-lemon14-日志信息:这是读取的第6条测试用例,用例内容是{'CaseID': 6, 'Module': 'register', 'Description': '异常注册:输入正确的手机号、5位密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'get', 'Params': "{'mobilephone':'15671638341','pwd':'12345'}", 'ExpectedResult': "{'status':0,'code':'20108','data':None,'msg':'密码长度必须为6~18位'}", 'ActualResult': '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}', 'TestResult': 'Failed'}
+[2019-03-14 00:47:26,934]-INFO-test_log.py-lemon14-日志信息:这是读取的第7条测试用例,用例内容是{'CaseID': 7, 'Module': 'register', 'Description': '异常注册:输入正确的手机号、20位密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'get', 'Params': "{'mobilephone':'15671638340','pwd':'12345678912345678912'}", 'ExpectedResult': "{'status':0,'code':'20108','data':None,'msg':'密码长度必须为6~18位'}", 'ActualResult': '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}', 'TestResult': 'Failed'}
+[2019-03-14 00:47:26,942]-INFO-test_log.py-lemon14-日志信息:这是读取的第8条测试用例,用例内容是{'CaseID': 8, 'Module': 'register', 'Description': '异常注册:输入特殊字符的手机号、3位密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'get', 'Params': "{'mobilephone':'3￥#','pwd':'123'}", 'ExpectedResult': "{'status':0,'code':'20109','data':None,'msg':'手机号码格式不正确'}", 'ActualResult': '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}', 'TestResult': 'Failed'}
+[2019-03-14 00:47:26,949]-INFO-test_log.py-lemon14-日志信息:这是读取的第9条测试用例,用例内容是{'CaseID': 9, 'Module': 'login', 'Description': '正常登陆：输入正确的手机号，密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'Method': 'get', 'Params': "{'mobilephone':'15671638339','pwd':'123456'}", 'ExpectedResult': "{'status':1,'code':'10001','data':None,'data':None,'msg':'登录成功'}", 'ActualResult': '{"status":1,"code":"10001","data":null,"msg":"登录成功"}', 'TestResult': 'Pass'}
+[2019-03-14 00:47:26,956]-INFO-test_log.py-lemon14-日志信息:这是读取的第10条测试用例,用例内容是{'CaseID': 10, 'Module': 'login', 'Description': '异常登陆：手机号正确，密码错误', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'Method': 'get', 'Params': "{'mobilephone':'15671638339','pwd':'123'}", 'ExpectedResult': "{'status':0,'code':'20111','data':None,'msg':'用户名或密码错误'}", 'ActualResult': '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}', 'TestResult': 'Pass'}
+[2019-03-14 00:47:26,963]-INFO-test_log.py-lemon14-日志信息:这是读取的第11条测试用例,用例内容是{'CaseID': 11, 'Module': 'login', 'Description': '异常登陆：手机号为空，密码为空', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'Method': 'get', 'Params': '{}', 'ExpectedResult': "{'status':0,'code':'20103','data':None,'msg':'手机号不能为空'}", 'ActualResult': '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}', 'TestResult': 'Pass'}
+[2019-03-14 00:47:26,969]-INFO-test_log.py-lemon14-日志信息:这是读取的第12条测试用例,用例内容是{'CaseID': 12, 'Module': 'login', 'Description': '异常登陆：手机号为空，密码为任意值', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'Method': 'get', 'Params': "{'pwd':'哈哈哈哈'}", 'ExpectedResult': "{'status':0,'code':'20103','data':None,'msg':'手机号不能为空'}", 'ActualResult': '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}', 'TestResult': 'Pass'}
+[2019-03-14 00:47:26,979]-INFO-test_log.py-lemon14-日志信息:这是读取的第13条测试用例,用例内容是{'CaseID': 13, 'Module': 'login', 'Description': '异常登陆：手机号为任意不存在的值，密码为任意值', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'Method': 'get', 'Params': "{'mobilephone':'我是手机号123454321','pwd':'123'}", 'ExpectedResult': "{'status':0,'code':'20111','data':None,'msg':'用户名或密码错误'}", 'ActualResult': '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}', 'TestResult': 'Pass'}
+[2019-03-14 00:47:26,986]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-17 21:36:55,255]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-17 21:36:55,277]-INFO-test_log.py-lemon14-日志信息:这是读取的第1条测试用例,用例内容是{'CaseID': 1, 'Module': 'register', 'Description': '正常注册:输入正确的手机号、密码、用户名', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'post', 'Params': "{'mobilephone':'15671638439','pwd':'123456','regname':'JESSIE'}", 'ExpectedResult': "{'status':1,'code':'10001','data':None,'msg':'注册成功'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,285]-INFO-test_log.py-lemon14-日志信息:这是读取的第2条测试用例,用例内容是{'CaseID': 2, 'Module': 'register', 'Description': '正常注册:输入正确的手机号、密码，用户名为空', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'get', 'Params': "{'mobilephone':'15671638390','pwd':'123456789123456789'}", 'ExpectedResult': "{'status':1,'code':'10001','data':None,'msg':'注册成功'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,291]-INFO-test_log.py-lemon14-日志信息:这是读取的第3条测试用例,用例内容是{'CaseID': 3, 'Module': 'register', 'Description': '异常注册:输入手机号为空、正确的密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'post', 'Params': "{'pwd':'123456'}", 'ExpectedResult': "{'status':0,'code':'20103','data':None,'msg':'手机号不能为空'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,300]-INFO-test_log.py-lemon14-日志信息:这是读取的第4条测试用例,用例内容是{'CaseID': 4, 'Module': 'register', 'Description': '异常注册:输入已被注册的手机号、正确的密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'post', 'Params': "{'mobilephone':'15671638340','pwd':'123456'}", 'ExpectedResult': "{'status':0,'code':'20110','data':None,'msg':'手机号码已被注册'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,308]-INFO-test_log.py-lemon14-日志信息:这是读取的第5条测试用例,用例内容是{'CaseID': 5, 'Module': 'register', 'Description': '异常注册:输入字符类型的手机号、正确的密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'post', 'Params': "{'mobilephone':'hhh','pwd':'123456'}", 'ExpectedResult': "{'status':0,'code':'20109','data':None,'msg':'手机号码格式不正确'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,318]-INFO-test_log.py-lemon14-日志信息:这是读取的第6条测试用例,用例内容是{'CaseID': 6, 'Module': 'register', 'Description': '异常注册:输入正确的手机号、5位密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'get', 'Params': "{'mobilephone':'15671638341','pwd':'12345'}", 'ExpectedResult': "{'status':0,'code':'20108','data':None,'msg':'密码长度必须为6~18位'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,332]-INFO-test_log.py-lemon14-日志信息:这是读取的第7条测试用例,用例内容是{'CaseID': 7, 'Module': 'register', 'Description': '异常注册:输入正确的手机号、20位密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'get', 'Params': "{'mobilephone':'15671638340','pwd':'12345678912345678912'}", 'ExpectedResult': "{'status':0,'code':'20108','data':None,'msg':'密码长度必须为6~18位'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,343]-INFO-test_log.py-lemon14-日志信息:这是读取的第8条测试用例,用例内容是{'CaseID': 8, 'Module': 'register', 'Description': '异常注册:输入特殊字符的手机号、3位密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/register', 'Method': 'get', 'Params': "{'mobilephone':'3￥#','pwd':'123'}", 'ExpectedResult': "{'status':0,'code':'20109','data':None,'msg':'手机号码格式不正确'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,352]-INFO-test_log.py-lemon14-日志信息:这是读取的第9条测试用例,用例内容是{'CaseID': 9, 'Module': 'login', 'Description': '正常登陆：输入正确的手机号，密码', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'Method': 'get', 'Params': "{'mobilephone':'15671638339','pwd':'123456'}", 'ExpectedResult': "{'status':1,'code':'10001','data':None,'data':None,'msg':'登录成功'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,360]-INFO-test_log.py-lemon14-日志信息:这是读取的第10条测试用例,用例内容是{'CaseID': 10, 'Module': 'login', 'Description': '异常登陆：手机号正确，密码错误', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'Method': 'get', 'Params': "{'mobilephone':'15671638339','pwd':'123'}", 'ExpectedResult': "{'status':0,'code':'20111','data':None,'msg':'用户名或密码错误'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,369]-INFO-test_log.py-lemon14-日志信息:这是读取的第11条测试用例,用例内容是{'CaseID': 11, 'Module': 'login', 'Description': '异常登陆：手机号为空，密码为空', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'Method': 'get', 'Params': '{}', 'ExpectedResult': "{'status':0,'code':'20103','data':None,'msg':'手机号不能为空'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,380]-INFO-test_log.py-lemon14-日志信息:这是读取的第12条测试用例,用例内容是{'CaseID': 12, 'Module': 'login', 'Description': '异常登陆：手机号为空，密码为任意值', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'Method': 'get', 'Params': "{'pwd':'哈哈哈哈'}", 'ExpectedResult': "{'status':0,'code':'20103','data':None,'msg':'手机号不能为空'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,391]-INFO-test_log.py-lemon14-日志信息:这是读取的第13条测试用例,用例内容是{'CaseID': 13, 'Module': 'login', 'Description': '异常登陆：手机号为任意不存在的值，密码为任意值', 'Url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'Method': 'get', 'Params': "{'mobilephone':'我是手机号123454321','pwd':'123'}", 'ExpectedResult': "{'status':0,'code':'20111','data':None,'msg':'用户名或密码错误'}", 'ActualResult': None, 'TestResult': None}
+[2019-03-17 21:36:55,401]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-17 21:36:55,410]-INFO-test_log.py-lemon14-日志信息:正在执行register模块的第1条测试用例
+[2019-03-17 21:36:55,418]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-17 21:36:55,553]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+[2019-03-17 21:36:55,561]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'}
+[2019-03-17 21:36:55,570]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Failed
+[2019-03-17 21:36:55,578]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-17 21:36:55,676]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+[2019-03-17 21:36:55,737]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-17 21:36:55,748]-INFO-test_log.py-lemon14-日志信息:正在执行register模块的第2条测试用例
+[2019-03-17 21:36:55,755]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-17 21:36:55,834]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+[2019-03-17 21:36:55,842]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'}
+[2019-03-17 21:36:55,853]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Failed
+[2019-03-17 21:36:55,863]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-17 21:36:55,909]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+[2019-03-17 21:36:55,959]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-17 21:36:55,967]-INFO-test_log.py-lemon14-日志信息:正在执行register模块的第3条测试用例
+[2019-03-17 21:36:55,974]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-17 21:36:56,051]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+[2019-03-17 21:36:56,069]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+[2019-03-17 21:36:56,092]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Pass
+[2019-03-17 21:36:56,101]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-17 21:36:56,167]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+[2019-03-17 21:36:56,239]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-17 21:36:56,250]-INFO-test_log.py-lemon14-日志信息:正在执行register模块的第4条测试用例
+[2019-03-17 21:36:56,264]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-17 21:36:56,345]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+[2019-03-17 21:36:56,354]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'}
+[2019-03-17 21:36:56,364]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Pass
+[2019-03-17 21:36:56,373]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-17 21:36:56,446]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+[2019-03-17 21:36:56,517]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-17 21:36:56,532]-INFO-test_log.py-lemon14-日志信息:正在执行register模块的第5条测试用例
+[2019-03-17 21:36:56,544]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-17 21:36:56,618]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-17 21:36:56,626]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+[2019-03-17 21:36:56,634]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Pass
+[2019-03-17 21:36:56,641]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-17 21:36:56,698]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-17 21:36:56,752]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-17 21:36:56,761]-INFO-test_log.py-lemon14-日志信息:正在执行register模块的第6条测试用例
+[2019-03-17 21:36:56,768]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-17 21:36:56,858]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-17 21:36:56,877]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+[2019-03-17 21:36:56,887]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Failed
+[2019-03-17 21:36:56,898]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第6条用例的测试结果
+[2019-03-17 21:36:56,990]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-17 21:36:57,052]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-17 21:36:57,062]-INFO-test_log.py-lemon14-日志信息:正在执行register模块的第7条测试用例
+[2019-03-17 21:36:57,071]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-17 21:36:57,145]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-17 21:36:57,155]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+[2019-03-17 21:36:57,163]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Failed
+[2019-03-17 21:36:57,174]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第7条用例的测试结果
+[2019-03-17 21:36:57,232]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-17 21:36:57,322]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-17 21:36:57,332]-INFO-test_log.py-lemon14-日志信息:正在执行register模块的第8条测试用例
+[2019-03-17 21:36:57,338]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-17 21:36:57,413]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-17 21:36:57,421]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+[2019-03-17 21:36:57,429]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Failed
+[2019-03-17 21:36:57,438]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第8条用例的测试结果
+[2019-03-17 21:36:57,491]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-17 21:36:57,552]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-17 21:36:57,560]-INFO-test_log.py-lemon14-日志信息:正在执行login模块的第9条测试用例
+[2019-03-17 21:36:57,570]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-17 21:36:57,655]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+[2019-03-17 21:36:57,665]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+[2019-03-17 21:36:57,673]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Pass
+[2019-03-17 21:36:57,681]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第9条用例的测试结果
+[2019-03-17 21:36:57,865]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+[2019-03-17 21:36:57,917]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-17 21:36:57,924]-INFO-test_log.py-lemon14-日志信息:正在执行login模块的第10条测试用例
+[2019-03-17 21:36:57,932]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-17 21:36:58,010]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+[2019-03-17 21:36:58,018]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+[2019-03-17 21:36:58,028]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Pass
+[2019-03-17 21:36:58,036]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第10条用例的测试结果
+[2019-03-17 21:36:58,087]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+[2019-03-17 21:36:58,137]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-17 21:36:58,143]-INFO-test_log.py-lemon14-日志信息:正在执行login模块的第11条测试用例
+[2019-03-17 21:36:58,152]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-17 21:36:58,228]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+[2019-03-17 21:36:58,238]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+[2019-03-17 21:36:58,249]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Pass
+[2019-03-17 21:36:58,259]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第11条用例的测试结果
+[2019-03-17 21:36:58,326]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+[2019-03-17 21:36:58,373]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-17 21:36:58,384]-INFO-test_log.py-lemon14-日志信息:正在执行login模块的第12条测试用例
+[2019-03-17 21:36:58,394]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-17 21:36:58,468]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+[2019-03-17 21:36:58,475]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+[2019-03-17 21:36:58,481]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Pass
+[2019-03-17 21:36:58,489]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第12条用例的测试结果
+[2019-03-17 21:36:58,544]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+[2019-03-17 21:36:58,606]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-17 21:36:58,615]-INFO-test_log.py-lemon14-日志信息:正在执行login模块的第13条测试用例
+[2019-03-17 21:36:58,624]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-17 21:36:58,710]-INFO-test_log.py-lemon14-日志信息:请求得到的内容是{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+[2019-03-17 21:36:58,718]-INFO-test_log.py-lemon14-日志信息:实际结果是：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+[2019-03-17 21:36:58,724]-INFO-test_log.py-lemon14-日志信息:该条测试用例测试结论：Pass
+[2019-03-17 21:36:58,731]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第13条用例的测试结果
+[2019-03-17 21:36:58,784]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+[2019-03-17 21:36:58,833]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass

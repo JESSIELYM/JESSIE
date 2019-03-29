@@ -1,0 +1,633 @@
+[2019-03-20 02:20:48,941]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:20:48,950]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:20:48,959]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:20:49,048]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 02:20:49,127]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+[2019-03-20 02:20:49,212]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:20:49,226]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:20:49,301]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第5条测试用例时，实际结果与预期结果对比出错了，错误内容是 :: {'code': '20111', 'data': None, 'msg': '用户名或密码错误', 'status': 0} != {'code': '20109', 'data': None, 'msg': '手机号码格式不正确', 'status': 0}
+[2019-03-20 02:20:49,308]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 02:20:49,386]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:20:49,471]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:23:21,324]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:23:21,357]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:23:33,711]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:23:33,718]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:23:33,725]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:23:33,814]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 02:23:33,902]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+[2019-03-20 02:23:34,012]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:23:34,021]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:23:34,114]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是 :: {'code': '20111', 'data': None, 'msg': '用户名或密码错误', 'status': 0} != {'code': '10001',
+ 'data': {'id': 1123287,
+          'leaveamount': '123.00',
+          'mobilephone': '15671638339',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': 'JESSIE',
+          'regtime': '2019-03-09 23:57:25.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2019-03-20 02:23:34,122]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 02:23:34,240]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":{"id":1123287,"regname":"JESSIE","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"15671638339","leaveamount":"123.00","type":"1","regtime":"2019-03-09 23:57:25.0"},"msg":"充值成功"}
+[2019-03-20 02:23:34,335]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:23:34,347]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:23:34,417]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第3条测试用例时，实际结果与预期结果对比出错了，错误内容是 :: {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0} != {'code': '20115', 'data': None, 'msg': '请输入金额', 'status': 0}
+[2019-03-20 02:23:34,426]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 02:23:34,508]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20115","data":null,"msg":"请输入金额"}
+[2019-03-20 02:23:34,600]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:23:34,610]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:23:34,692]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第4条测试用例时，实际结果与预期结果对比出错了，错误内容是 :: {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0} != {'code': '20118', 'data': None, 'msg': '请输入数字', 'status': 0}
+[2019-03-20 02:23:34,701]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 02:23:34,785]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20118","data":null,"msg":"请输入数字"}
+[2019-03-20 02:23:34,885]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:23:34,896]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:23:34,969]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第5条测试用例时，实际结果与预期结果对比出错了，错误内容是 :: {'code': '20111', 'data': None, 'msg': '用户名或密码错误', 'status': 0} != {'code': '20109', 'data': None, 'msg': '手机号码格式不正确', 'status': 0}
+[2019-03-20 02:23:34,978]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 02:23:35,061]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:23:35,139]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:26:02,302]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:26:02,310]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:26:02,321]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:26:02,415]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 02:26:02,494]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+[2019-03-20 02:26:02,572]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:26:02,580]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:26:02,722]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是 :: {'code': '10001',
+ 'data': {'id': 1123287,
+          'leaveamount': '123.00',
+          'mobilephone': '15671638339',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': 'JESSIE',
+          'regtime': '2019-03-09 23:57:25.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1} != {'code': '10001',
+ 'data': {'id': 1123287,
+          'leaveamount': '246.00',
+          'mobilephone': '15671638339',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': 'JESSIE',
+          'regtime': '2019-03-09 23:57:25.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2019-03-20 02:26:02,731]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 02:26:02,885]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":{"id":1123287,"regname":"JESSIE","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"15671638339","leaveamount":"246.00","type":"1","regtime":"2019-03-09 23:57:25.0"},"msg":"充值成功"}
+[2019-03-20 02:26:02,970]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:26:02,987]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:26:03,062]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 02:26:03,137]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20115","data":null,"msg":"请输入金额"}
+[2019-03-20 02:26:03,220]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:26:03,230]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:26:03,309]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 02:26:03,391]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20118","data":null,"msg":"请输入数字"}
+[2019-03-20 02:26:03,472]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:26:03,482]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:26:03,558]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 02:26:03,637]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:26:03,719]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:26:55,437]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:26:55,445]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:26:55,475]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:26:55,482]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:26:55,495]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:26:55,579]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 02:26:55,657]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+[2019-03-20 02:26:55,734]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:26:55,744]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:26:55,845]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是{'sta[155 chars]t': '123.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'} != {'sta[155 chars]t': '369.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123287,
+-           'leaveamount': '123.00',
+?                           --
+
++           'leaveamount': '369.00',
+?                            ++
+
+            'mobilephone': '15671638339',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': 'JESSIE',
+            'regtime': '2019-03-09 23:57:25.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-20 02:26:55,852]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 02:26:55,930]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":{"id":1123287,"regname":"JESSIE","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"15671638339","leaveamount":"369.00","type":"1","regtime":"2019-03-09 23:57:25.0"},"msg":"充值成功"}
+[2019-03-20 02:26:56,009]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:26:56,017]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:26:56,094]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 02:26:56,173]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20115","data":null,"msg":"请输入金额"}
+[2019-03-20 02:26:56,310]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:26:56,318]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:26:56,399]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 02:26:56,499]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20118","data":null,"msg":"请输入数字"}
+[2019-03-20 02:26:56,578]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:26:56,587]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:26:56,662]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 02:26:56,737]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:26:56,818]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:28:52,998]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:28:53,006]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:28:53,034]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:28:53,042]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:28:53,055]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:28:53,139]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 02:28:53,218]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+[2019-03-20 02:28:53,305]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:28:53,315]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:28:53,406]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是{'sta[155 chars]t': '123.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'} != {'sta[155 chars]t': '492.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123287,
+-           'leaveamount': '123.00',
+?                           ^ -
+
++           'leaveamount': '492.00',
+?                           ^^
+
+            'mobilephone': '15671638339',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': 'JESSIE',
+            'regtime': '2019-03-09 23:57:25.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-20 02:28:53,415]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 02:28:53,498]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":{"id":1123287,"regname":"JESSIE","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"15671638339","leaveamount":"492.00","type":"1","regtime":"2019-03-09 23:57:25.0"},"msg":"充值成功"}
+[2019-03-20 02:28:53,581]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:28:53,589]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:28:53,661]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 02:28:53,743]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20115","data":null,"msg":"请输入金额"}
+[2019-03-20 02:28:53,825]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:28:53,835]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:28:53,915]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 02:28:53,995]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20118","data":null,"msg":"请输入数字"}
+[2019-03-20 02:28:54,074]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:28:54,083]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:28:54,161]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 02:28:54,244]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:28:54,325]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:30:09,641]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:30:09,651]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:30:09,679]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:30:09,689]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:30:09,701]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:30:09,789]-ERROR-test_log.py-lemon14-日志信息:在执行register模块的第1条测试用例时，实际结果与预期结果对比出错了，错误内容是{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} != {'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+- {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?             ^^^                         ^^^^             ^
+
++ {'code': '20109', 'data': None, 'msg': '手机号码格式不正确', 'status': 0}
+?           ++  ^                         ^^^^^^^^^             ^
+
+[2019-03-20 02:30:09,799]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 02:30:09,887]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:30:09,974]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:30:09,992]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:30:10,071]-ERROR-test_log.py-lemon14-日志信息:在执行register模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} != {'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+- {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?             ^^^                         ^^^^             ^
+
++ {'code': '20109', 'data': None, 'msg': '手机号码格式不正确', 'status': 0}
+?           ++  ^                         ^^^^^^^^^             ^
+
+[2019-03-20 02:30:10,079]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 02:30:10,191]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:30:10,278]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:30:10,290]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:30:10,365]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 02:30:10,444]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+[2019-03-20 02:30:10,525]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:30:10,534]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:30:10,618]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 02:30:10,701]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+[2019-03-20 02:30:10,786]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:30:10,796]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:30:10,869]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 02:30:10,952]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:30:11,033]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:30:11,043]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:30:11,120]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第6条用例的测试结果
+[2019-03-20 02:30:11,200]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 02:30:11,292]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:30:11,301]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:30:11,383]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第7条用例的测试结果
+[2019-03-20 02:30:11,534]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 02:30:11,616]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:30:11,626]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:30:11,697]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第8条用例的测试结果
+[2019-03-20 02:30:11,775]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 02:30:11,905]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:30:11,915]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:30:11,993]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 02:30:12,077]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+[2019-03-20 02:30:12,160]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:30:12,169]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:30:12,268]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是{'sta[155 chars]t': '123.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'} != {'sta[155 chars]t': '615.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123287,
+-           'leaveamount': '123.00',
+?                            ^^
+
++           'leaveamount': '615.00',
+?                           + ^
+
+            'mobilephone': '15671638339',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': 'JESSIE',
+            'regtime': '2019-03-09 23:57:25.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-20 02:30:12,278]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 02:30:12,366]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":{"id":1123287,"regname":"JESSIE","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"15671638339","leaveamount":"615.00","type":"1","regtime":"2019-03-09 23:57:25.0"},"msg":"充值成功"}
+[2019-03-20 02:30:12,461]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:30:12,473]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:30:12,543]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 02:30:12,634]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20115","data":null,"msg":"请输入金额"}
+[2019-03-20 02:30:12,711]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:30:12,723]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:30:12,814]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 02:30:12,900]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20118","data":null,"msg":"请输入数字"}
+[2019-03-20 02:30:12,989]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:30:13,001]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:30:13,074]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 02:30:13,161]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:30:13,254]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:37:58,863]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:37:58,872]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:40:47,303]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:40:47,314]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:40:47,426]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:40:47,435]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:40:47,448]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:40:47,559]-ERROR-test_log.py-lemon14-日志信息:在执行register模块的第1条测试用例时，实际结果与预期结果对比出错了，错误内容是{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} != {'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+- {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?             ^^^                         ^^^^             ^
+
++ {'code': '20109', 'data': None, 'msg': '手机号码格式不正确', 'status': 0}
+?           ++  ^                         ^^^^^^^^^             ^
+
+[2019-03-20 02:40:47,570]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 02:40:47,678]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:40:47,759]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:40:47,788]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:40:47,864]-ERROR-test_log.py-lemon14-日志信息:在执行register模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} != {'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+- {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?             ^^^                         ^^^^             ^
+
++ {'code': '20109', 'data': None, 'msg': '手机号码格式不正确', 'status': 0}
+?           ++  ^                         ^^^^^^^^^             ^
+
+[2019-03-20 02:40:47,874]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 02:40:47,958]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:40:48,042]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:40:48,053]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:40:48,133]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 02:40:48,271]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+[2019-03-20 02:40:48,368]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:40:48,381]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:40:48,463]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 02:40:48,542]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+[2019-03-20 02:40:48,632]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:40:48,645]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:40:48,733]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 02:40:48,817]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:40:48,906]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:40:48,916]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:40:49,009]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第6条用例的测试结果
+[2019-03-20 02:40:49,097]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 02:40:49,181]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:40:49,193]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:40:49,265]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第7条用例的测试结果
+[2019-03-20 02:40:49,345]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 02:40:49,430]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:40:49,441]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:40:49,518]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第8条用例的测试结果
+[2019-03-20 02:40:49,602]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 02:40:49,685]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:40:49,700]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:40:49,792]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 02:40:49,883]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+[2019-03-20 02:40:49,980]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:40:49,992]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:40:50,093]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是{'sta[155 chars]t': '123.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'} != {'sta[155 chars]t': '738.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123287,
+-           'leaveamount': '123.00',
+?                           ^^
+
++           'leaveamount': '738.00',
+?                           ^ +
+
+            'mobilephone': '15671638339',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': 'JESSIE',
+            'regtime': '2019-03-09 23:57:25.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-20 02:40:50,106]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 02:40:50,201]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":{"id":1123287,"regname":"JESSIE","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"15671638339","leaveamount":"738.00","type":"1","regtime":"2019-03-09 23:57:25.0"},"msg":"充值成功"}
+[2019-03-20 02:40:50,289]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:40:50,303]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:40:50,378]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 02:40:50,463]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20115","data":null,"msg":"请输入金额"}
+[2019-03-20 02:40:50,551]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:40:50,563]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:40:50,639]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 02:40:50,726]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20118","data":null,"msg":"请输入数字"}
+[2019-03-20 02:40:50,814]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:40:50,853]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:40:50,926]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 02:40:51,012]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:40:51,101]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:42:31,768]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:42:31,779]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:42:57,918]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:42:57,929]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:43:17,834]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:43:54,785]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:43:54,921]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:43:54,952]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:43:54,965]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:43:54,977]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:43:55,061]-ERROR-test_log.py-lemon14-日志信息:在执行register模块的第1条测试用例时，实际结果与预期结果对比出错了，错误内容是{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} != {'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+- {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?             ^^^                         ^^^^             ^
+
++ {'code': '20109', 'data': None, 'msg': '手机号码格式不正确', 'status': 0}
+?           ++  ^                         ^^^^^^^^^             ^
+
+[2019-03-20 02:43:55,072]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 02:43:55,154]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:43:55,245]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:43:55,299]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:43:55,379]-ERROR-test_log.py-lemon14-日志信息:在执行register模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} != {'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+- {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?             ^^^                         ^^^^             ^
+
++ {'code': '20109', 'data': None, 'msg': '手机号码格式不正确', 'status': 0}
+?           ++  ^                         ^^^^^^^^^             ^
+
+[2019-03-20 02:43:55,391]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 02:43:55,488]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:43:55,576]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:43:55,587]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:43:55,675]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 02:43:55,830]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+[2019-03-20 02:43:55,920]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:43:55,933]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:43:56,021]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 02:43:56,110]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+[2019-03-20 02:43:56,198]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:43:56,213]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:43:56,298]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 02:43:56,385]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:43:56,474]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:43:56,485]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:43:56,559]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第6条用例的测试结果
+[2019-03-20 02:43:56,642]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 02:43:56,724]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:43:56,736]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:43:56,817]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第7条用例的测试结果
+[2019-03-20 02:43:56,901]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 02:43:57,025]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:43:57,036]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:43:57,108]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第8条用例的测试结果
+[2019-03-20 02:43:57,194]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 02:43:57,310]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:43:57,324]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:43:57,413]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 02:43:57,498]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+[2019-03-20 02:43:57,593]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:43:57,606]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:43:57,701]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是{'sta[155 chars]t': '123.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'} != {'sta[155 chars]t': '861.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123287,
+-           'leaveamount': '123.00',
+?                            --
+
++           'leaveamount': '861.00',
+?                           ++
+
+            'mobilephone': '15671638339',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': 'JESSIE',
+            'regtime': '2019-03-09 23:57:25.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-20 02:43:57,712]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 02:43:57,803]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":{"id":1123287,"regname":"JESSIE","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"15671638339","leaveamount":"861.00","type":"1","regtime":"2019-03-09 23:57:25.0"},"msg":"充值成功"}
+[2019-03-20 02:43:57,898]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:43:57,980]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:43:58,062]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 02:43:58,160]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20115","data":null,"msg":"请输入金额"}
+[2019-03-20 02:43:58,254]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:43:58,266]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:43:58,341]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 02:43:58,423]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20118","data":null,"msg":"请输入数字"}
+[2019-03-20 02:43:58,509]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:43:58,522]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:43:58,600]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 02:43:58,685]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:43:58,784]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:44:45,044]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:44:45,060]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:49:18,158]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:49:32,451]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:49:32,673]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:49:32,691]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:49:32,817]-ERROR-test_log.py-lemon14-日志信息:在执行register模块的第1条测试用例时，实际结果与预期结果对比出错了，错误内容是 :: {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1} != {'code': '20109', 'data': None, 'msg': '手机号码格式不正确', 'status': 0}
+[2019-03-20 02:49:32,830]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 02:49:32,919]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:49:33,017]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:49:33,077]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:49:33,164]-ERROR-test_log.py-lemon14-日志信息:在执行register模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是 :: {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1} != {'code': '20109', 'data': None, 'msg': '手机号码格式不正确', 'status': 0}
+[2019-03-20 02:49:33,175]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 02:49:33,275]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:49:33,384]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 02:49:33,404]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:49:33,488]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 02:49:33,594]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+[2019-03-20 02:49:33,692]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:49:33,703]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:49:33,796]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 02:49:33,893]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+[2019-03-20 02:49:33,978]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:49:33,990]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 02:49:34,078]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 02:49:34,174]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 02:49:34,277]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:49:34,292]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:49:34,378]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第6条用例的测试结果
+[2019-03-20 02:49:34,480]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 02:49:34,575]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:49:34,590]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:49:34,663]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第7条用例的测试结果
+[2019-03-20 02:49:34,765]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 02:49:34,856]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:49:34,869]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 02:49:34,955]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第8条用例的测试结果
+[2019-03-20 02:49:35,048]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 02:49:35,129]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 02:51:13,439]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:51:13,691]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:52:43,699]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:52:43,814]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 02:57:52,845]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 02:57:52,858]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 03:01:41,948]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 03:01:42,080]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 03:02:33,323]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 03:02:33,462]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 03:03:17,119]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 03:03:17,291]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 03:04:38,677]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 03:04:38,806]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 03:07:43,992]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 03:07:44,143]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 03:08:05,376]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 03:08:05,486]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 03:08:05,578]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 03:08:05,590]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 03:08:05,603]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 03:08:05,706]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 03:08:05,811]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"注册成功"}
+[2019-03-20 03:08:05,886]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:08:05,897]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:08:05,983]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 03:08:06,077]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"注册成功"}
+[2019-03-20 03:08:06,153]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:08:06,164]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 03:08:06,239]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 03:08:06,317]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+[2019-03-20 03:08:06,404]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:08:06,416]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 03:08:06,498]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 03:08:06,570]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+[2019-03-20 03:08:06,648]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:08:06,660]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 03:08:06,740]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 03:08:06,857]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 03:08:06,935]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:08:06,947]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:08:07,024]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第6条用例的测试结果
+[2019-03-20 03:08:07,103]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 03:08:07,179]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:08:07,192]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:08:07,265]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第7条用例的测试结果
+[2019-03-20 03:08:07,338]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 03:08:07,413]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:08:07,424]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:08:07,500]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第8条用例的测试结果
+[2019-03-20 03:08:07,587]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 03:08:07,671]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:08:07,683]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:08:07,764]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 03:08:07,844]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+[2019-03-20 03:08:07,917]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:08:07,929]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:08:08,029]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是{'sta[155 chars]t': '123.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'} != {'sta[155 chars]t': '984.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123287,
+-           'leaveamount': '123.00',
+?                           ^^^
+
++           'leaveamount': '984.00',
+?                           ^^^
+
+            'mobilephone': '15671638339',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': 'JESSIE',
+            'regtime': '2019-03-09 23:57:25.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-20 03:08:08,040]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 03:08:08,142]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":{"id":1123287,"regname":"JESSIE","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"15671638339","leaveamount":"984.00","type":"1","regtime":"2019-03-09 23:57:25.0"},"msg":"充值成功"}
+[2019-03-20 03:08:08,224]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 03:08:08,264]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:08:08,342]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 03:08:08,418]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20115","data":null,"msg":"请输入金额"}
+[2019-03-20 03:08:08,492]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:08:08,504]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:08:08,583]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 03:08:08,661]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20118","data":null,"msg":"请输入数字"}
+[2019-03-20 03:08:08,740]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:08:08,751]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:08:08,829]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 03:08:08,903]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 03:08:08,988]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:09:43,276]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 03:09:43,424]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 03:09:43,467]-INFO-test_log.py-lemon14-日志信息:开始读取测试用例
+[2019-03-20 03:09:43,482]-INFO-test_log.py-lemon14-日志信息:读取测试用例结束,
+[2019-03-20 03:09:43,498]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 03:09:43,592]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 03:09:43,684]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"注册成功"}
+[2019-03-20 03:09:43,776]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:09:43,788]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:09:43,877]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 03:09:43,966]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"注册成功"}
+[2019-03-20 03:09:44,047]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:09:44,060]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 03:09:44,136]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 03:09:44,214]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+[2019-03-20 03:09:44,300]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:09:44,313]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 03:09:44,396]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 03:09:44,472]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+[2019-03-20 03:09:44,560]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:09:44,573]-INFO-test_log.py-lemon14-日志信息:正在发起POST请求
+[2019-03-20 03:09:44,652]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 03:09:44,729]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 03:09:44,808]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:09:44,820]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:09:44,901]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第6条用例的测试结果
+[2019-03-20 03:09:45,032]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 03:09:45,111]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:09:45,134]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:09:45,209]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第7条用例的测试结果
+[2019-03-20 03:09:45,291]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 03:09:45,369]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:09:45,382]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:09:45,465]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第8条用例的测试结果
+[2019-03-20 03:09:45,547]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+[2019-03-20 03:09:45,639]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:09:45,652]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:09:45,743]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第1条用例的测试结果
+[2019-03-20 03:09:45,827]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+[2019-03-20 03:09:45,907]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:09:45,919]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:09:46,029]-ERROR-test_log.py-lemon14-日志信息:在执行recharge模块的第2条测试用例时，实际结果与预期结果对比出错了，错误内容是{'sta[156 chars]': '123.00', 'type': '1', 'regtime': '2019-03-[26 chars]值成功'} != {'sta[156 chars]': '1107.00', 'type': '1', 'regtime': '2019-03[27 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123287,
+-           'leaveamount': '123.00',
+?                            ^^
+
++           'leaveamount': '1107.00',
+?                            ^^^
+
+            'mobilephone': '15671638339',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': 'JESSIE',
+            'regtime': '2019-03-09 23:57:25.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-20 03:09:46,043]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第2条用例的测试结果
+[2019-03-20 03:09:46,129]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":1,"code":"10001","data":{"id":1123287,"regname":"JESSIE","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"15671638339","leaveamount":"1107.00","type":"1","regtime":"2019-03-09 23:57:25.0"},"msg":"充值成功"}
+[2019-03-20 03:09:46,207]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Failed
+[2019-03-20 03:09:46,220]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:09:46,302]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第3条用例的测试结果
+[2019-03-20 03:09:46,379]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20115","data":null,"msg":"请输入金额"}
+[2019-03-20 03:09:46,466]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:09:46,480]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:09:46,556]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第4条用例的测试结果
+[2019-03-20 03:09:46,636]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20118","data":null,"msg":"请输入数字"}
+[2019-03-20 03:09:46,716]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
+[2019-03-20 03:09:46,749]-INFO-test_log.py-lemon14-日志信息:正在发起GET请求
+[2019-03-20 03:09:46,836]-INFO-test_log.py-lemon14-日志信息:开始向EXCEL中写入第5条用例的测试结果
+[2019-03-20 03:09:47,031]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+[2019-03-20 03:09:47,132]-INFO-test_log.py-lemon14-日志信息:向Excel中写入数据，存入的数据信息是Pass
